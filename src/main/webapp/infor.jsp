@@ -30,7 +30,7 @@
 <%--                    facebook--%>
                     <c:choose>
                         <c:when test="${customer.getFbId() == null}">
-                            <a href="https://www.facebook.com/dialog/oauth?client_id=606938923966761&redirect_uri=https://group6project.herokuapp.com/fb-login" class="social-button" id="facebook-connect"> <span>Connect with Facebook</span></a>
+                            <a href="https://www.facebook.com/dialog/oauth?client_id=512141757136187&redirect_uri=https://fastfoodress.herokuapp.com/fb-login" class="social-button" id="facebook-connect"> <span>Connect with Facebook</span></a>
                         </c:when>
                         <c:when test="${customer.getFbId() != null}">
                             <a href="fb-login?action=remove" class="social-button" id="facebook-connect"> <span>Remove with Facebook</span></a>

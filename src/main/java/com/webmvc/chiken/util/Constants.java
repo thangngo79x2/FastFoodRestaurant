@@ -1,9 +1,9 @@
 package com.webmvc.chiken.util;
 
 public class Constants {
-    public static String FACEBOOK_APP_ID = "606938923966761";
-    public static String FACEBOOK_APP_SECRET = "504540e35de3b3c82d8e3a0fb28a53d5";
-    public static String FACEBOOK_REDIRECT_URL = "https://group6project.herokuapp.com/fb-login";
+    public static String FACEBOOK_APP_ID = "512141757136187";
+    public static String FACEBOOK_APP_SECRET = "6ac6e359e2eda3f8bfbca0402f3e3393";
+    public static String FACEBOOK_REDIRECT_URL = "https://fastfoodress.herokuapp.com/fb-login";
 //    public static String FACEBOOK_REDIRECT_URL = "http://localhost:8081/chiken_war_exploded/fb-login";
     public static String FACEBOOK_LINK_GET_TOKEN = "https://graph.facebook.com/oauth/access_token?client_id=%s&client_secret=%s&redirect_uri=%s&code=%s";
 
