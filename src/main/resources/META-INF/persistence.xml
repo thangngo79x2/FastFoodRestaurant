@@ -28,10 +28,14 @@
 
         <!--        <class></class>-->
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:postgresql://ec2-54-224-142-15.compute-1.amazonaws.com:5432/darschqvp4f5i8"/>
+<!--            <property name="hibernate.connection.url" value="jdbc:postgresql://ec2-54-224-142-15.compute-1.amazonaws.com:5432/darschqvp4f5i8"/>-->
+<!--            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>-->
+<!--            <property name="hibernate.connection.username" value="hrthdlukbngedk"/>-->
+<!--            <property name="hibernate.connection.password" value="f930961bc226db2f8e73ff29501d5a0ac74425c31217faa9f18461b19e0ab7c8"/>-->
+            <property name="hibernate.connection.url" value="jdbc:postgresql://ec2-34-224-226-38.compute-1.amazonaws.com:5432/diejh4hrb6ifo"/>
             <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
-            <property name="hibernate.connection.username" value="hrthdlukbngedk"/>
-            <property name="hibernate.connection.password" value="f930961bc226db2f8e73ff29501d5a0ac74425c31217faa9f18461b19e0ab7c8"/>
+            <property name="hibernate.connection.username" value="hpsouqlaqcxijk"/>
+            <property name="hibernate.connection.password" value="ba0782c6fa4ee816297d5d3e58379cbe39cd6506d6351f3b425671ed53422b3b"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.connection.CharSet" value="utf8"/>
             <property name="hibernate.connection.characterEncoding" value="utf8"/>
