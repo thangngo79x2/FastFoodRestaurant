@@ -18,7 +18,7 @@
                 <a href="register" style="float:left ; font-size: 15px;">Do not have an account ?</a> <br>
                 <div class="login-box">
                    
-                    <a href="https://www.facebook.com/dialog/oauth?client_id=512141757136187&redirect_uri=http://localhost:8081/chiken_war_exploded/fb-login" class="social-button" id="facebook-connect"> <span>Login with Facebook</span></a>
+                    <a href="https://www.facebook.com/dialog/oauth?client_id=512141757136187&redirect_uri=https://fastfoodress.herokuapp.com/fb-login" class="social-button" id="facebook-connect"> <span>Login with Facebook</span></a>
                     <a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=https://fastfoodress.herokuapp.com/gg-login&response_type=code&client_id=1020369265111-u30b21k5ghkap6g6bh666r6j3q1qhvni.apps.googleusercontent.com&approval_prompt=force" class="social-button" id="google-connect"> <span>Login with Google</span></a>
 
                 </div>

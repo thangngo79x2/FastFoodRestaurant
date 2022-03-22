@@ -3,7 +3,7 @@
 <!-- End Header -->
 
 <main class="confirmcart">
-    <h1>Hoá đơn</h1>
+    <h1>Bill</h1>
     <h2 class="name" name="">Fullname : ${address.getAddressName()}
 
     </h2>

@@ -57,7 +57,7 @@
                                     <input type="hidden" name="action" value="update">
                                     <input type="hidden" name="productCode" value="${lineItem.getProduct().getProductCode()}">
 
-                                    <input class="btn btn-success btn-block" type="submit" value="cập nhật">
+                                    <input class="btn btn-success btn-block" type="submit" value="Update">
 
                                 </td>
                             </form>
@@ -66,7 +66,7 @@
                                     <input type="hidden" name="action" value="update">
                                     <input type="hidden" name="productCode" value="${lineItem.getProduct().getProductCode()}">
                                     <input type="hidden" name="quantity" value="0">
-                                    <input class="btn btn-success btn-block" type="submit" value="xóa">
+                                    <input class="btn btn-success btn-block" type="submit" value="delete">
                                 </td>
                             </form>
                         </tr>

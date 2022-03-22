@@ -46,8 +46,8 @@ public class PaymentServices {
 
     private RedirectUrls getRedirectURLs() {
         RedirectUrls redirectUrls = new RedirectUrls();
-        redirectUrls.setCancelUrl("http://localhost:8080/FastFood_war_exploded/bill.jsp");
-        redirectUrls.setReturnUrl("http://localhost:8080/FastFood_war_exploded/review_payment");
+        redirectUrls.setCancelUrl("https://fastfoodress.herokuapp.com//bill.jsp");
+        redirectUrls.setReturnUrl("https://fastfoodress.herokuapp.com//review_payment");
         return redirectUrls;
     }
     public Payment getPaymentDetails(String paymentId) throws PayPalRESTException{
