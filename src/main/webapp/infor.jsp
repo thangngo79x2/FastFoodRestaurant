@@ -39,7 +39,7 @@
                     <%--                    google--%>
                     <c:choose>
                         <c:when test="${customer.getGgId() == null}">
-                            <a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=https://group6project.herokuapp.com/gg-login&response_type=code&client_id=1020369265111-u30b21k5ghkap6g6bh666r6j3q1qhvni.apps.googleusercontent.com&approval_prompt=force" class="social-button" id="google-connect"> <span>Connect with Google</span></a>
+                            <a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=https://fastfoodress.herokuapp.com/gg-login&response_type=code&client_id=1083386569886-fcnd182hruik0e6cgabqad22o0279e61.apps.googleusercontent.com&approval_prompt=force" class="social-button" id="google-connect"> <span>Connect with Google</span></a>
                         </c:when>
                         <c:when test="${customer.getGgId() != null}">
                             <a href="gg-login?action=remove" class="social-button" id="google-connect"> <span>Remove with Google</span></a>
